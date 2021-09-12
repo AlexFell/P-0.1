@@ -14,7 +14,6 @@ namespace ПРОГ.ЛАБ._0_1
             int CH = 0;
             string S;
             double L = 0, a = 0, b = 0, l = 0, r = 0;
-            double PI = 3.14;
             Console.WriteLine("ВСЕ ЗНАЧЕНИЯ ВВОДЯТСЯ В МИЛЛИМЕТРАХ");
             Console.WriteLine("Введите длину бруска");
             for ( int i = 0; L <= 0; ++i )
@@ -249,7 +248,7 @@ namespace ПРОГ.ЛАБ._0_1
 
             double Vb = L * a * b;
             Console.WriteLine("Объём бруска: " + Vb);
-            double Vc = PI * l * r * r;
+            double Vc = Math.PI * l * r * r;
             Console.WriteLine("Объём цилиндра: " + Vc);
             double PR = (100 * Vc) / Vb;
             Console.WriteLine(PR + "% материала ушло в отходы");
